@@ -56,6 +56,46 @@ sections:
           - mb-8
       actions:
         justifyContent: flex-start
+  - type: FeaturedPostsSection
+    variant: variant-b
+    colors: colors-a
+    title: Recent work
+    posts:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
+      - content/pages/blog/post-four.md
+      - content/pages/blog/post-five.md
+      - content/pages/blog/post-six.md
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pr-4
+          - pl-4
+        justifyContent: center
+      title:
+        fontWeight: '700'
+        fontStyle: normal
+        textAlign: center
+      subtitle:
+        fontWeight: '400'
+        fontStyle: normal
+        textAlign: center
+        margin:
+          - mt-0
+          - mb-12
+      actions:
+        justifyContent: center
+    subtitle: Explore case studies
   - elementId: contact-form
     colors: colors-a
     title: Contact us
@@ -114,44 +154,4 @@ sections:
         textAlign: left
     action: /.netlify/functions/submission_created
     type: ContactSection
-  - type: FeaturedPostsSection
-    variant: variant-b
-    colors: colors-a
-    title: Recent work
-    posts:
-      - content/pages/blog/post-three.md
-      - content/pages/blog/post-two.md
-      - content/pages/blog/post-one.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-five.md
-      - content/pages/blog/post-six.md
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
-        justifyContent: center
-      title:
-        fontWeight: '700'
-        fontStyle: normal
-        textAlign: center
-      subtitle:
-        fontWeight: '400'
-        fontStyle: normal
-        textAlign: center
-        margin:
-          - mt-0
-          - mb-12
-      actions:
-        justifyContent: center
-    subtitle: Explore case studies
 ---
